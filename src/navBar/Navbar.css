@@ -1,0 +1,98 @@
+/* ANIMATE NAVBAR X HAMBURGER START */
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: 0;
+}
+.navbar-toggler span {
+  display: block;
+  background-color: white;
+  height: 3px;
+  width: 25px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  position: relative;
+  left: 0;
+  opacity: 1;
+}
+
+.navbar-toggler span:nth-child(1),
+.navbar-toggler span:nth-child(3) {
+  -webkit-transition: transform .35s ease-in-out;
+  -moz-transition: transform .35s ease-in-out;
+  -o-transition: transform .35s ease-in-out;
+  transition: transform .35s ease-in-out;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  opacity: 0.9;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  height: 12px;
+  visibility: hidden;
+  background-color: transparent;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  opacity: 0.9;
+}
+/* ANIMATE NAVBAR X HAMBURGER END */
+.navbar-toggler {
+  cursor: pointer;
+  background-color: none;
+}
+.navbar-toggler span {
+  background-color: #66fcf1;
+}
+@keyframes bounce {
+  0%,10%,20%,50%,80%,100%{transform:translateY(0)}
+  40%{transform:translateY(-15px)}
+  60%{transform:translateY(-15px)}
+}
+@keyframes float{
+  0%{transform: translateY(0)}
+  50%{transform: translateY(-6px)}
+  100%{transform: translateY(0)}
+}
+.navIcons {
+  color: #66fcf1;
+  font-family: 'Cinzel', serif;
+}
+.navIcons:hover {
+  color: white;
+  animation: float 1s ease infinite;
+}
+.nav-link:hover {
+  color: white;
+}
+.navbar-brand {
+  margin-top: -10px;
+  color: #66fcf1;
+  font-family: 'Cinzel', serif;
+
+}
+.navbar-brand:hover {
+  color: white;
+  animation: float 1s ease infinite;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
