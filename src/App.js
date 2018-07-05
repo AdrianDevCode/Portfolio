@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './navBar/Navbar';
 import Homepage from './homePage/Homepage';
-import AboutMe from './aboutMe/AboutMe'
+import AboutMe from './aboutMe/AboutMe';
+import Projects from './projects/Projects';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <div id="particles-js"></div> 
         <Homepage /> 
         <AboutMe />
+        <Projects />
       </div>
     );
   }

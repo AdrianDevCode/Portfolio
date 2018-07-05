@@ -1,0 +1,33 @@
+h4 {
+    text-align: center;
+    color: #66fcf1;
+    font-family: 'Cinzel', serif;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.card {
+    width: 300px;
+    min-height: 600px;
+    margin: 2%;
+    background: none;
+    border: 1px solid #66fcf1;
+    cursor: pointer;
+}
+
+.card-img-top {
+    height: 300px;
+    width: 298px;
+}
+
+.card-title {
+    color: #66fcf1;
+    padding: 3%;
+}
+
+.card-text {
+    padding: 3%;
+}
