@@ -5,6 +5,7 @@ import Homepage from './homePage/Homepage';
 import AboutMe from './aboutMe/AboutMe';
 import Projects from './projects/Projects';
 import Contact from './contactMe/Contact';
+import MapContainer from './contactMe/GoogleMap';
 
 class App extends Component {
   render() {
@@ -15,7 +16,8 @@ class App extends Component {
         <Homepage /> 
         <AboutMe />
         <Projects />
-        <Contact />
+        <MapContainer />
+        <Contact  />
       </div>
     );
   }
