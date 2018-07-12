@@ -6,7 +6,7 @@ export class MapContainer extends Component {
   render() {
     const style = {
         width: '100%',
-        Height: '100vh',  
+        Height: '100vh',
       }
     const {props} = this,
         {mapStyles} = props;
@@ -23,8 +23,9 @@ export class MapContainer extends Component {
         zoom={10}>
         <Marker
             title={'I live here'}
-            name={'Smyrna'}
-            position={{lat: 33.8900, lng: -84.5144}} />
+            position={{lat: 33.8900, lng: -84.5144}}
+            />
+        
       
       </Map>
      

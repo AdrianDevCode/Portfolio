@@ -6,13 +6,14 @@ import AboutMe from './aboutMe/AboutMe';
 import Projects from './projects/Projects';
 import Contact from './contactMe/Contact';
 import MapContainer from './contactMe/GoogleMap';
+import CustomParticles from './particles/Particles';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar />
-        <div id="particles-js"></div> 
+        <CustomParticles />
+        <Navbar /> 
         <Homepage /> 
         <AboutMe />
         <Projects />
