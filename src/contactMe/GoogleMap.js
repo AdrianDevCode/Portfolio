@@ -32,8 +32,9 @@ export class MapContainer extends Component {
     );
   }
 }
+
 export default GoogleApiWrapper({
-  apiKey: ('AIzaSyA_0VyBKrqsTY0gwf05J8It5nuEmEIdmjA')
+  apiKey: (process.env.REACT_APP_GMAP_API)
 })(MapContainer)
 
 MapContainer.defaultProps = {

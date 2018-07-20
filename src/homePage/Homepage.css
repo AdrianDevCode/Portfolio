@@ -36,6 +36,8 @@ h4 {
 }
 
 #downArrowBtn {
+    width: 52px;
+    height: 80px;
     color: #66fcf1;
     background: none;
     border: none;
@@ -43,9 +45,13 @@ h4 {
     position: absolute;
     bottom: 0;
     display: block;
-    width: 100px;
+    margin-top: 10px;
 }
 
 #downArrowBtn:hover {
     color: white;
+}
+.downArrow {
+    width: 60px;
+
 }

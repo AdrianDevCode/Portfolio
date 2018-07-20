@@ -1,45 +1,57 @@
 h3 {
-    text-align: center;
-    font-family: 'Cinzel', serif;
-    color: #66fcf1;
-  }
-  h4 {
-    text-align: center;
-    color: #66fcf1;
-    font-family: 'Cinzel', serif;
-  }
-  p {
-    text-align: center;
-    color: white;
-  }
-  .blockquote-footer {
-    color: #66fcf1;
-  }
-  .quotes {
-    color: white;
-  }
-  .text p {
-    color: white;
-    text-align: center;
-  }
-  .text {
-    margin-top: 15%;
-  }
-  .card {
-    width: 300px;
-    min-height: 600px;
-    margin: 2%;
-    background: none;
-    border: 1px solid #66fcf1;
-  }
-  .card-img-top{
-    height: 300px;
-    width: 298px;
-  }
-  .card-title {
-    color: #66fcf1;
-    padding: 3%;
-  }
-  .card-text {
-    padding: 3%;
-  }
+  font-family: 'Cinzel', serif;
+  color: #66fcf1;
+}
+
+h4 {
+  text-align: center;
+  color: #66fcf1;
+  font-family: 'Cinzel', serif;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  color: white;
+  margin: 5px;
+}
+.icons {
+  font-size: 2rem;
+}
+.blockquote-footer {
+  color: #66fcf1;
+}
+
+.quotes {
+  color: white;
+}
+
+.text p {
+  color: white;
+}
+
+.text {
+  margin-top: 15%;
+}
+
+.card {
+  width: 300px;
+  min-height: 600px;
+  margin: 2%;
+  background: none;
+  border: 1px solid #66fcf1;
+}
+
+.card-img-top {
+  height: 300px;
+  width: 298px;
+}
+
+.card-title {
+  color: #66fcf1;
+  padding: 3%;
+}
+
+.card-text {
+  padding: 3%;
+}
