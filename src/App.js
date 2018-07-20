@@ -7,6 +7,12 @@ import Projects from './projects/Projects';
 import Contact from './contactMe/Contact';
 import MapContainer from './contactMe/GoogleMap';
 import CustomParticles from './particles/Particles';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+
+library.add(fab, fas);
+require('dotenv').config();
 
 class App extends Component {
   render() {

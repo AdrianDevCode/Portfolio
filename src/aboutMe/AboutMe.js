@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './AboutMe.css';
 
 class AboutMe extends Component {
@@ -8,7 +9,7 @@ class AboutMe extends Component {
                 <div className="row">
                     <div className="col-lg-4 text-center">
                         <div className="card">
-                            <img className="card-img-top" src="../img/self.jpeg" alt="" />
+                            <img src="./img/self.jpeg" className="card-img-top" alt="self" />
                             <div className="card-body">
                             <h4 className="card-title">About Me</h4>
                             <p className="card-text">
@@ -23,25 +24,25 @@ class AboutMe extends Component {
                         <p className="mb-3 quotes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                         <p className="blockquote-footer">Some name</p>
                         </blockquote>
-                        <div className="container-fluid text-sm-center">
+                        <div className="container-fluid">
                             <div className="row">
                                 <div className="col-lg-6 text">
                                     <h3>Front End Skills</h3>
-                                    <p>
-                                        <i className="icon-css3 fa-2x"> Css 3</i><br/>
-                                        <i className="icon-html5 fa-2x"> Html 5</i><br/>
-                                        <i className="icon-javascript fa-2x"> JavaScript</i> <br/>
-                                        <i className="icon-jquery fa-2x"> JQuery</i><br/>
-                                        <i className="icon-bootstrap fa-2x"> BootStrap</i><br/>
-                                    </p>
+                                    <ul>  
+                                        <li><FontAwesomeIcon icon={['fab', 'react']} size="2x" /><span className="icons"> React</span></li>
+                                        <li><FontAwesomeIcon icon={['fab', 'html5']} size="2x" /><span className="icons"> Html 5 </span></li>
+                                        <li><FontAwesomeIcon icon={['fab', 'css3']} size="2x" /><span className="icons"> Css 3</span></li>
+                                        <li><FontAwesomeIcon icon={['fab', 'js']} size="2x" /><span className="icons"> JQuery</span></li>
+                                    </ul>
                                 </div>
                                 <div className="col-lg-6 text">
                                     <h3>Back End Skills</h3>
-                                    <p>
-                                        <i className="icon-python fa-2x"> Python</i><br/>
-                                        <i className="icon-nodejs fa-2x"> NodeJS</i><br/>
-                                        <i className="icon-mongodb fa-2x"> MongoDB</i> <br/>
-                                    </p>
+                                    <ul>
+                                        <li><FontAwesomeIcon icon={['fab', 'node']} size="2x" /><span className="icons"> NodeJS</span></li>
+                                        <li><FontAwesomeIcon icon={'code'} size="2x" /><span className="icons"> ExpressJS</span></li>
+                                        <li><FontAwesomeIcon icon={'database'} size="2x" /><span className="icons"> Postgres SQL</span></li>
+                                        <li><FontAwesomeIcon icon={['fab', 'git']} size="2x" /><span className="icons"> GIT</span></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

@@ -10,7 +10,7 @@ class Contact extends Component {
                     <div className="row">
                         <div className="col-md-12  text-center">
                             <div className="ml-auto" id="form" action="https://formspree.io/adrianw.ct@gmail.com" method="POST" role="form">
-                                <h3>Send me a message!</h3>
+                                <div className="sendMessage"><h3>Send me a message!</h3></div>
                                 <div className="row">
                                     <div className="col-md-12">
                                         <div className="form-group">
