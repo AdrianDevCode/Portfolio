@@ -11,8 +11,10 @@
     "google-maps-react": "^2.0.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-draggable": "^3.0.5",
     "react-fontawesome": "^1.6.1",
     "react-particles-js": "^2.2.0",
+    "react-scale-text": "^1.2.2",
     "react-scripts": "1.1.4",
     "react-scrollchor": "^6.0.0"
   },

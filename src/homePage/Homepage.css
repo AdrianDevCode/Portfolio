@@ -21,6 +21,7 @@ h1 {
     color: #66fcf1;
     /* teal color*/
     font-family: 'Cinzel', serif;
+    font-size: 100px;
 }
 
 h4 {
@@ -54,4 +55,9 @@ h4 {
 .downArrow {
     width: 60px;
 
+}
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    h1 {
+        font-size: 40px;
+    }
 }

@@ -11,7 +11,7 @@ class Homepage extends Component {
                     <div className="row">
                         <div className="col-md-12">
                             <h1>Adrian Wiszniewski</h1>
-                            <h4>Web Developer</h4>
+                            <h4>Full Stack Web Developer</h4>
                         </div>
                     </div>
                 </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './AboutMe.css';
 
 class AboutMe extends Component {
@@ -20,10 +20,6 @@ class AboutMe extends Component {
                         </div>
                     </div>
                     <div className="col-lg-8">
-                        <blockquote className="blockquote">
-                        <p className="mb-3 quotes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <p className="blockquote-footer">Some name</p>
-                        </blockquote>
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col-lg-6 text">
