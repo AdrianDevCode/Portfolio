@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./Navbar.css";
 import Scrollchor from 'react-scrollchor';
-
+import Resume from '../resume.pdf';
 class Navbar extends Component {
     render() {
         
@@ -16,12 +16,12 @@ class Navbar extends Component {
                     <Scrollchor to="#homePage" className="navbar-brand">Adrian Wiszniewski</Scrollchor>
                     <div className="collapse navbar-collapse" id="myBar">
                         <ul className="navbar-nav">
-                            <li><Scrollchor to="#aboutMe"  data-target="#myBar" className="nav-link toggleMobile navIcons"><span>About Me</span></Scrollchor></li>
-                            <li><Scrollchor to="#projects" data-target="#myBar" className="nav-link toggleMobile navIcons"><span>Projects</span></Scrollchor></li>
-                            <li><Scrollchor to="#contact"  data-target="#myBar" className="nav-link toggleMobile navIcons"><span>Contact</span></Scrollchor></li>
+                            <li><Scrollchor to="#aboutMe" data-toggle="collapse" data-target="#myBar" className="nav-link toggleMobile navIcons"><span>About Me</span></Scrollchor></li>
+                            <li><Scrollchor to="#projects" data-toggle="collapse" data-target="#myBar" className="nav-link toggleMobile navIcons"><span>Projects</span></Scrollchor></li>
+                            <li><Scrollchor to="#map-container" data-toggle="collapse" data-target="#myBar" className="nav-link toggleMobile navIcons"><span>Location</span></Scrollchor></li>
                         </ul>
                         <ul className="navbar-nav ml-auto">
-                            <li><a data-target="#myBar" className="nav-link navIcons" href="./resume.pdf"><span className="hideText"> Resume</span></a></li>
+                            <li><a data-target="#myBar" className="nav-link navIcons" href={Resume} target="_blank"><span className="hideText"> Resume</span></a></li>
                             <li><a data-target="#myBar" className="nav-link navIcons" href="https://linkedin.com/in/adriandevcode"><span className="hideText"> LinkedIn</span></a></li>
                             <li><a data-target="#myBar" className="nav-link navIcons" href="https://github.com/AdrianDevCode"><span className="hideText"> GitHub</span></a></li>
                         </ul>

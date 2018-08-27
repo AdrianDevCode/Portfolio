@@ -4,8 +4,7 @@ import Navbar from './navBar/Navbar';
 import Homepage from './homePage/Homepage';
 import AboutMe from './aboutMe/AboutMe';
 import Projects from './projects/Projects';
-import Contact from './contactMe/Contact';
-import MapContainer from './contactMe/GoogleMap';
+import MapContainer from './map/GoogleMap';
 import CustomParticles from './particles/Particles';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -24,7 +23,6 @@ class App extends Component {
         <AboutMe />
         <Projects />
         <MapContainer />
-        <Contact  />
       </div>
     );
   }

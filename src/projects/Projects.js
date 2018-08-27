@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Projects.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 class Projects extends Component {
     render() {
         return (
@@ -8,51 +10,61 @@ class Projects extends Component {
                 <div className="row">
                     <div className="col-lg-12 text-center">
                         <div className="card">
-                            <a href="https://codepen.io/AdrianDevCode/full/dXGWZd" className="card-link"><img className="card-img-top" src="./img/quoteMachine.png" alt="" /></a>
+                            <a href="https://guild-wars-2-card-game.herokuapp.com/" className="card-link"><img className="card-img-top" src="./img/gw2CardGame.png" alt="" /></a>
                             <div className="card-body">
-                                <h4 className="card-title">Quote Machine</h4>
+                                <h4 className="card-title">Guild Wars Card Game</h4>
                                 <p className="card-text">
-                                    A simple web app that pulls random quotes from a list file with an option to post it on your twitter.
-                                </p>
+                                Full Stack card game fusing triple Triad game mechanics with guild wars 2 game look. Collect all 64 cards!
+                                </p>    
+                                <button className="btn btn-lg btn-block hvr-grow hvr-bounce-to-left">Show Video</button>
+                                <FontAwesomeIcon className="icons" icon={['fab', 'react']} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={['fab', 'html5']} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={['fab', 'css3']} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={'database'} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={['fab', 'node']} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={'code'} size="2x" />
                             </div>
                         </div>
                         <div className="card">
-                            <a href="https://adriandevcode.github.io/WikiPages/" className="card-link"><img className="card-img-top" src="./img/wikiPages.png" alt="" /></a>
+                            <a href="https://chilangosproj.herokuapp.com/" className="card-link"><img className="card-img-top" src="./img/chilangos.png" alt="" /></a>
                             <div className="card-body">
-                                <h4 className="card-title">Wiki Pages</h4>
+                                <h4 className="card-title">Chilangos</h4>
                                 <p className="card-text">
-                                    Search app for Wikipedia. Simple and clutter free design to search Wikipedia articles.
+                                    Full Stack trivia game that tests your knowledge of the mexican slang. Try to get the highest score!
                                 </p>
+                                <button className="btn btn-lg btn-block hvr-grow hvr-bounce-to-right">Show Video</button>
+                                <FontAwesomeIcon className="icons" icon={['fab', 'html5']} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={['fab', 'css3']} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={'database'} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={['fab', 'node']} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={'code'} size="2x" />
                             </div>
                         </div>
                         <div className="card">
-                            <a href="https://codepen.io/AdrianDevCode/full/dXGWZd" className="card-link"><img className="card-img-top" src="./img/wallPic.jpg" alt="" /></a>
+                            <a href="https://tagged.netlify.com/" className="card-link"><img className="card-img-top" src="./img/tagged.png" alt="" /></a>
                             <div className="card-body">
-                                <h4 className="card-title">project 3</h4>
+                                <h4 className="card-title">Tagged</h4>
                                 <p className="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, necessitatibus!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum assumenda a minus aliquid iure quo accusamus debitis, laudantium odio atque.
+                                    Full Stack messaging app using license plates to talk to the other drivers on the road.                               
                                 </p>
+                                <button className="btn btn-lg btn-block hvr-grow hvr-bounce-to-left">Show Video</button>
+                                <FontAwesomeIcon className="icons" icon={['fab', 'html5']} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={['fab', 'css3']} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={'database'} size="2x" />
                             </div>
                         </div>
                         <div className="card">
-                            <a href="https://codepen.io/AdrianDevCode/full/dXGWZd" className="card-link"><img className="card-img-top" src="./img/wallPic.jpg" alt="" /></a>
+                            <a href="https://sceneit.netlify.com/" className="card-link"><img className="card-img-top" src="./img/sceneIt.png" alt="" /></a>
                             <div className="card-body">
-                                <h4 className="card-title">project 4</h4>
+                                <h4 className="card-title">SceneIt</h4>
                                 <p className="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, necessitatibus!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum assumenda a minus aliquid iure quo accusamus debitis, laudantium odio atque.
+                                    a simple app that searches movie database and shows pertinent information on the movie. User can create watchlist by adding any movies shown
                                 </p>
-                            </div>
-                        </div>
-                        <div className="card">
-                            <a href="https://codepen.io/AdrianDevCode/full/dXGWZd" className="card-link"><img className="card-img-top" src="./img/wallPic.jpg" alt="" /></a>
-                            <div className="card-body">
-                                <h4 className="card-title">project 5</h4>
-                                <p className="card-text">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, necessitatibus!
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum assumenda a minus aliquid iure quo accusamus debitis, laudantium odio atque.
-                                </p>
+                                <button className="btn btn-lg btn-block hvr-grow hvr-bounce-to-right">Show Video</button>
+                                <FontAwesomeIcon className="icons" icon={['fab', 'html5']} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={['fab', 'css3']} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={['fab', 'git']} size="2x" />
+                                <FontAwesomeIcon className="icons" icon={['fab', 'js']} size="2x" />
                             </div>
                         </div>
                     </div>

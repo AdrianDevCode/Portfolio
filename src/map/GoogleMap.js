@@ -1,34 +1,36 @@
 import React, {Component} from 'react';
 import {Map, GoogleApiWrapper, Marker} from 'google-maps-react';
-import './Contact.css';
+import './Map.css';
 
 export class MapContainer extends Component {
   render() {
     const style = {
         width: '100%',
-        height: '100vh',
+        height: '100%',
       }
     const {props} = this,
         {mapStyles} = props;
     return (
-      
-      <Map
-        google={this.props.google}
-        style={style}
-        styles={mapStyles}
-        initialCenter={{
-        lat: 33.8900,
-        lng: -84.2144
-      }}
-        zoom={10}>
+      <div id="map-container">
+       
+        <Map className="map"
+          google={this.props.google}
+          style={style}
+          styles={mapStyles}
+          initialCenter={{
+          lat: 33.7490,
+          lng: -84.3880
+        }}
+          zoom={10}>
+          
+          <Marker
+              title={'I live in Greater Atlanta Area'}
+              position={{lat: 33.7490, lng: -84.3880}}
+              />
+          
+        </Map>
         
-        <Marker
-            title={'I live here'}
-            position={{lat: 33.8900, lng: -84.5144}}
-            />
-        
-      </Map>
-     
+     </div>
     );
   }
 }
