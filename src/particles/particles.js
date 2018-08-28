@@ -8,6 +8,7 @@ class CustomParticles extends Component{
             <Particles 
               params={{
                 particles: {
+                    "nb": 50,
                     "number": {
                         "value": 50,
                         "density": {
@@ -77,6 +78,11 @@ class CustomParticles extends Component{
                 interactivity: {
                     "detect_on": "window",
                     "events": {
+                        "onresize": {
+                            "enable": true,
+                            "density_auto": true,
+                            "density_area": 400,
+                        },
                       "onhover": {
                         "enable": true,
                         "mode": "repulse"
