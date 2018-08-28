@@ -16,7 +16,8 @@
     "react-particles-js": "^2.2.0",
     "react-scale-text": "^1.2.2",
     "react-scripts": "1.1.4",
-    "react-scrollchor": "^6.0.0"
+    "react-scrollchor": "^6.0.0",
+    "sweetalert2": "^7.26.12"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -22,7 +22,7 @@ class AboutMe extends Component {
                     <div className="col-lg-8">
                         <div className="container-fluid">
                             <div className="row">
-                                <div className="col-lg-6 text">
+                                <div className="col-lg-6 text-xs-center">
                                     <h3>Front End Skills</h3>
                                     <ul>  
                                         <li><FontAwesomeIcon icon={['fab', 'react']} size="2x" /><span className="icons"> React</span></li>
@@ -31,7 +31,7 @@ class AboutMe extends Component {
                                         <li><FontAwesomeIcon icon={['fab', 'js']} size="2x" /><span className="icons"> JQuery</span></li>
                                     </ul>
                                 </div>
-                                <div className="col-lg-6 text">
+                                <div className="col-lg-6 text-xs-center">
                                     <h3>Back End Skills</h3>
                                     <ul>
                                         <li><FontAwesomeIcon icon={['fab', 'node']} size="2x" /><span className="icons"> NodeJS</span></li>
