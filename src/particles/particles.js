@@ -76,7 +76,7 @@ class CustomParticles extends Component{
                     }
                 },
                 interactivity: {
-                    "detect_on": "window",
+                    "detect_on": "canvas",
                     "events": {
                         "onresize": {
                             "enable": true,
