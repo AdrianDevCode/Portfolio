@@ -35,6 +35,9 @@ p {
 .card-text {
     padding: 3%;
 }
+button:hover {
+    cursor: pointer;
+}
 
 /* Grow */
 
