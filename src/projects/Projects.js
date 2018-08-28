@@ -7,12 +7,12 @@ class Projects extends Component {
    
     render() {
         const videoButton = link => {
-            
+            let width = window.innerWidth;
                 Swal({
                     title: "Check out the preview of the app below",
-                    html: `<iframe width="560" height="315" src="${link}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`,
+                    html: `<iframe width="${width - 100}" height="315" src="${link}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`,
                     confirmButtonText: "Back to Portfolio",
-                    width: "600px"
+                    width: `${width}px`
                 })
             
         }
