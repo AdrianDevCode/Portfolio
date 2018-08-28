@@ -1,19 +1,17 @@
-h3 {
-  font-family: 'Cinzel', serif;
-  color: #66fcf1;
-}
 
-h4 {
+h4, h3{
   text-align: center;
   color: #66fcf1;
   font-family: 'Cinzel', serif;
 }
 ul {
   list-style-type: none;
+  text-align: center;
 }
 li {
   color: white;
   margin: 5px;
+  text-align: center;
 }
 .icons {
   font-size: 2rem;

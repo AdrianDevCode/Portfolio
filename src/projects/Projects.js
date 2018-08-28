@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Projects.css';
-
+import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Projects extends Component {
@@ -8,7 +8,7 @@ class Projects extends Component {
         return (
             <section id="projects" className="container-fluid text-xs-center">
                 <div className="row">
-                    <div className="col-lg-12 text-center">
+                    <div className="col-12 text-center sm-auto">
                         <div className="card">
                             <a href="https://guild-wars-2-card-game.herokuapp.com/" className="card-link"><img className="card-img-top" src="./img/gw2CardGame.png" alt="" /></a>
                             <div className="card-body">
