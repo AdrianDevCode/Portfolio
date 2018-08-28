@@ -162,9 +162,7 @@ p {
   .card-img-top {
     padding-top: 5%;
   }
-  canvas {
-      display: none;
-  }
+  
   html, body {
       background: black;
   }
