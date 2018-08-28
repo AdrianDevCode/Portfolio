@@ -4,13 +4,19 @@ import Particles from 'react-particles-js';
 class CustomParticles extends Component{
   
     render(){
+        let viewPortWidth = window.innerWidth;
+        let num_nb = 0;
+        if (viewPortWidth > 600){
+            num_nb = Math.round(Math.sqrt(viewPortWidth * 1)); // pc view
+        }else{
+            num_nb = Math.round(Math.sqrt(viewPortWidth * 0.3)); //mobile view
+        }
         return (
             <Particles 
               params={{
                 particles: {
-                    "nb": 50,
                     "number": {
-                        "value": 50,
+                        "value": num_nb,
                         "density": {
                             "enable": true,
                             "value_area": 700
