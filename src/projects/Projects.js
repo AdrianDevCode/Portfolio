@@ -37,13 +37,13 @@ class Projects extends Component {
                             </div>
                         </div>
                         <div className="card">
-                            <a href="https://chilangosproj.herokuapp.com/" className="card-link"><img className="card-img-top" src="./img/chilangos.png" alt="" /></a>
+                            <a href="https://chilangos-game.herokuapp.com/" className="card-link"><img className="card-img-top" src="./img/chilangos.png" alt="" /></a>
                             <div className="card-body">
                                 <h4 className="card-title">Chilangos</h4>
                                 <p className="card-text">
                                     Full Stack trivia game that tests your knowledge of the mexican slang. Try to get the highest score!
                                 </p>
-                                <button onClick={() => {videoButton("https://www.youtube.com/embed/VYOjWnS4cMY")}} className="btn btn-lg btn-block hvr-grow hvr-bounce-to-right">Show Video</button>
+                                <button onClick={() => {videoButton("https://www.youtube.com/embed/zDvO6ZtpHTE")}} className="btn btn-lg btn-block hvr-grow hvr-bounce-to-right">Show Video</button>
                                 <FontAwesomeIcon className="icons" icon={['fab', 'html5']} size="2x" />
                                 <FontAwesomeIcon className="icons" icon={['fab', 'css3']} size="2x" />
                                 <FontAwesomeIcon className="icons" icon={'database'} size="2x" />
